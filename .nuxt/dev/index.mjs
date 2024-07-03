@@ -382,6 +382,9 @@ function defineCachedEventHandler(handler, opts = defaultCacheOptions) {
         fetch: globalThis.$fetch
       });
       event.context = incomingEvent.context;
+      event.context.cache = {
+        options: _opts
+      };
       const body = await handler(event) || _resSendBody;
       const headers = event.node.res.getHeaders();
       headers.etag = String(
@@ -731,8 +734,9 @@ async function runTask(name, {
 }
 
 function defineRenderHandler(handler) {
+  const runtimeConfig = useRuntimeConfig();
   return eventHandler(async (event) => {
-    if (event.path.endsWith("/favicon.ico")) {
+    if (event.path === `${runtimeConfig.app.baseURL}favicon.ico`) {
       setResponseHeader(event, "Content-Type", "image/x-icon");
       return send(
         event,

@@ -13,8 +13,8 @@
                       <h4>Mohammad Bagas Prakosa</h4>
                       <p class="text-secondary mb-1">Junior Cyber Security (Red Team)</p>
                       <p class="text-muted font-size-sm"> Jl.Dr.Sutomo No:33 Yogyakarta</p>
-                      <button class="btn btn-primary">Follow</button>
-                      <button class="btn btn-outline-primary">Message</button>
+                      <a href="https://www.instagram.com/thisisbagasslebewww/" class="btn btn-primary mb-2" data-v-040fbd33>Follow</a>
+                      <a href="https://api.whatsapp.com/send/?phone=6282135421362&text&type=phone_number&app_absent=0" class="btn btn-outline-primary mb-2" data-v-040fbd33>Message</a>
                     </div>
                   </div>
                 </div>
@@ -79,7 +79,7 @@
                       <h6 class="mb-0">Mobile</h6>
                     </div>
                     <div class="col-sm-9 text-secondary">
-                      088706603245
+                      (+62)82135421362
                     </div>
                   </div>
                   <hr>
