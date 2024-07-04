@@ -1,5 +1,14 @@
 <template>
+   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css'>
   <section class="projects">
+    <nav>
+      <section class="nav-section">
+            <a><NuxtLink to="/" class="nav-item">Home</NuxtLink></a>
+            <a><NuxtLink to="/about" class="nav-item">About</NuxtLink></a>
+            <a><NuxtLink to="/contact" class="nav-item">Contact</NuxtLink></a>
+            <a><NuxtLink to="/projects" class="nav-item">Projects</NuxtLink></a>
+      </section>
+    </nav>
     <h2>My Projects</h2>
     Pembuatan Website Portofolio
     <br>

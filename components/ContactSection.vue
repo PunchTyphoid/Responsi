@@ -2,6 +2,16 @@
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css'>
   <section class="contact">
     <div class="container">
+      <nav>
+      <section class="nav-section">
+            <a><NuxtLink to="/" class="nav-item">Home</NuxtLink></a>
+            <a><NuxtLink to="/about" class="nav-item">About</NuxtLink></a>
+            <a><NuxtLink to="/contact" class="nav-item">Contact</NuxtLink></a>
+            <a><NuxtLink to="/projects" class="nav-item">Projects</NuxtLink></a>
+      </section>
+    </nav>
+    <br>
+    <br>
     <h2>Contact Me</h2>
     <form  @submit.prevent="sendMessage">
       <div class="mb-3">

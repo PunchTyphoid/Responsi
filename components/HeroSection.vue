@@ -183,6 +183,6 @@ export default {
 .hero {
   text-align: center;
   padding: 100px 0;
-  background: #b0b0b0;
+  background-image: url(@/assets/bg.jpeg);
 }
 </style>
