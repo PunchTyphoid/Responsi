@@ -46,6 +46,6 @@ export default {
 .projects {
   text-align: center;
   padding: 100px 0;
-  background: #ffffff;
+  background-image: url(@/assets/bg.jpeg);
 }
 </style>
