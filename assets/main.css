@@ -4,3 +4,44 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+@media only screen and (max-width: 600px) {
+    nav {
+        flex-direction: column;
+    }
+}
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    background-color:#2d4b7a;
+    align-items: center;
+    padding: 10px 10px;
+    position:fixed;
+    top:0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+}
+.nav-section{
+    display: flex;
+    justify-content:right;
+    align-items: center;
+   
+}
+.nav-item{
+    border-radius: 5px;
+    padding-top: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+.nav-item:hover {
+    background-color: #0d58b9;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+}

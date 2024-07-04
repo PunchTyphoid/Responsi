@@ -3,6 +3,16 @@
   <section class="hero">
    <div class="container">
     <div class="main-body">
+
+      <nav>
+      <section class="nav-section">
+            <a><NuxtLink to="/" class="nav-item">Home</NuxtLink></a>
+            <a><NuxtLink to="/about" class="nav-item">About</NuxtLink></a>
+            <a><NuxtLink to="/contact" class="nav-item">Contact</NuxtLink></a>
+            <a><NuxtLink to="/projects" class="nav-item">Projects</NuxtLink></a>
+      </section>
+    </nav>
+
           <div class="row gutters-sm">
             <div class="col-md-4 mb-3">
               <div class="card">
